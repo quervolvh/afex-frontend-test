@@ -1,0 +1,13 @@
+declare module 'react-redux';
+declare module '*.webp';
+declare module '*.png';
+declare module '*.jpg';
+declare module '*.jpeg';
+declare module '*.svg';
+declare module 'cors';
+declare module 'react-copy-to-clipboard';
+declare module "pdfmake/build/pdfmake";
+declare module "pdfmake/build/vfs_fonts";
+declare module "multer";
+declare module "crypto-js";
+declare type websocket = import("websocket");
