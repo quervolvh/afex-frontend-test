@@ -10,7 +10,7 @@ const MainLayoutSideNav: React.FC<{ active?: string }> = ({ active }) => {
             <div className="main-layout-sideNav-company">
 
                 <div className="main-layout-sideNav-company-box">
-                    {/* <img src={StellasIcon} alt={"Stellas-bank"} /> */}
+                   
                 </div>
 
             </div>

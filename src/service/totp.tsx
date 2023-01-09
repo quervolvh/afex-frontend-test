@@ -1,7 +1,7 @@
 import * as OTPAuth from 'otpauth';
 
 export const totp = (secrete? : string) => new OTPAuth.TOTP({
-    issuer: 'Stellas',
+    issuer: '-----',
     label: 'Make a request !',
     algorithm: 'SHA1',
     digits: 15,
