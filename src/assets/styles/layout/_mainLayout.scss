@@ -200,6 +200,7 @@
 
   &-page-content {
     @extend .strickFadeIn;
+
     @include media-query(non-pc) {
       margin-top: 0;
       padding: 72px 10px 120px;
@@ -207,15 +208,14 @@
       max-height: unset;
       overflow: unset;
     }
+
     @include media-query('mobile') {
-      padding: 123px 10px 32px;
+      padding: 70px 10px 32px;
       overflow-x: scroll;
     }
 
     @media only screen and (min-width: 1200px) {
-
       margin-bottom: 75px;
-
     }
 
     display: flex;
@@ -225,7 +225,6 @@
     max-height: calc(100vh - 73px);
     overflow-y: scroll;
     background: color(body-background);
-
 
     &-left {
 

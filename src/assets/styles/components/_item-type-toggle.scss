@@ -9,12 +9,18 @@
   display: flex;
 
   p {
-   
+
     @media only screen and (max-width: 300px) {
       font-size: 4vw;
     }
-    @include font-size(regular);
 
+    @include media-query(mobile) {
+
+      min-width: max-content;
+
+    }
+
+    @include font-size(regular);
     position: relative;
     display: flex;
     justify-content: center;
